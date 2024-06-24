@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching Skills Bot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light container-fluid justify-content-between" style="font-size: 20px;">
+       
+        <ul class="navbar-nav">
+            <li class="nav-item pl-5 <%= selected === 'home' ? 'active' : '' %>">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item pl-5">
+                <a class="nav-link <%= selected === 'about' ? 'active' : '' %>" href="/about">About</a>
+            </li>
+            <li class="nav-item pl-5 <%= selected === 'bot' ? 'active' : '' %>">
+                <a class="nav-link" href="/bot">Bot</a>
+            </li>
+        </ul>
+       
+    </nav>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

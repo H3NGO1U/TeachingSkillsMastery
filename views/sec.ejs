@@ -1,0 +1,19 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration:3000
+    });
+</script>
+<div class="col">
+    <div class="row p-5 mx-auto align-items-center" style="background-color: <%= bgcolor %>; border-radius: 10%; width:90%;" data-aos="fade-up">
+        <div class="col">
+            <h2><%= title %></h2>
+            <h5><%= description %></h5>
+        </div>
+        <div class="col ml-5">
+            <img src="<%= imgSrc %>" style="width:50%; border-radius: 100%;" alt="<%= imgAlt %>">
+        </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
